@@ -220,9 +220,5 @@ On AMD AI Max 395 (128GB unified memory):
 - Inference: 60 FPS visualization with trained agent
 - Memory: <500MB (plenty of room to scale up!)
 
-Your system can handle:
-- Much larger networks (up to 0.25B params transformer!)
-- Parallel training (run multiple experiments simultaneously)
-- Larger batch sizes for faster convergence
 
 Enjoy your artificial life! 🦠
