@@ -12,8 +12,6 @@ A 2D artificial life simulation where a bacteria-like agent learns to find food 
 
 ## Installation
 
-For AMD AI Max 395 with 128GB unified memory (CPU training):
-
 ```bash
 # CPU-only PyTorch (recommended for your system)
 pip install torch --index-url https://download.pytorch.org/whl/cpu
@@ -29,11 +27,9 @@ pip install -r requirements.txt
 
 Required packages:
 - numpy - Fast numerical operations
-- torch - Neural networks (CPU version for AMD AI Max 395)
+- torch - Neural networks 
 - gymnasium - RL environment interface
 - pygame - Real-time visualization
-
-**Note**: With 128GB of unified memory, you can easily scale up to larger networks or run multiple training runs in parallel!
 
 ## Quick Start
 
