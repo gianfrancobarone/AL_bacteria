@@ -1,0 +1,8 @@
+numpy>=1.24.0
+torch>=2.0.0
+gymnasium>=0.29.0
+pygame>=2.5.0
+
+# Note: Using CPU-only PyTorch (optimized for AMD AI Max 395 with 128GB unified memory)
+# Install with: pip install torch --index-url https://download.pytorch.org/whl/cpu
+# Or if already installed with CUDA, PyTorch will automatically use CPU when CUDA is unavailable
